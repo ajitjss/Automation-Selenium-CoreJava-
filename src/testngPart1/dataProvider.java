@@ -1,4 +1,4 @@
-package day4;
+package testngPart1;
 
 public @interface dataProvider {
 

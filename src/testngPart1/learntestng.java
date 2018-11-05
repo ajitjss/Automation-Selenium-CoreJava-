@@ -1,4 +1,4 @@
-package day4;
+package testngPart1;
 import java.sql.Driver;
 import java.util.concurrent.TimeUnit;
 import org.apache.xerces.util.SynchronizedSymbolTable;

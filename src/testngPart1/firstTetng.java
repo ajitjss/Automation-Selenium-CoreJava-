@@ -1,4 +1,4 @@
-package day4;
+package testngPart1;
 
 import org.junit.Assert;
 import org.testng.annotations.BeforeMethod;

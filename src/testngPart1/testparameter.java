@@ -1,4 +1,4 @@
-package day4;
+package testngPart1;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;

@@ -1,4 +1,4 @@
-package day1;
+package crossBrowser;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;

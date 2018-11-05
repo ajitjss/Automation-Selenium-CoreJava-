@@ -1,4 +1,4 @@
-package day4;
+package testngPart1;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
