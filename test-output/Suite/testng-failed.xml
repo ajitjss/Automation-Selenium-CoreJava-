@@ -3,31 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="day4.testngimplementations">
+      <class name="testngPart2.testwithPriority">
         <methods>
           <include name="doLogin"/>
-          <include name="userReg"/>
-          <include name="connecttoDB"/>
-          <include name="closebrowser"/>
-          <include name="disconnecttoDB"/>
-          <include name="launchbrowser"/>
+          <include name="envSetUp"/>
         </methods>
-      </class> <!-- day4.testngimplementations -->
-      <class name="day4.learntestng">
-        <methods>
-          <include name="connectDB"/>
-          <include name="titleVerify"/>
-          <include name="doLogin"/>
-          <include name="disconDB"/>
-          <include name="launchbrowser"/>
-        </methods>
-      </class> <!-- day4.learntestng -->
-      <class name="day4.product">
-        <methods>
-          <include name="productquant"/>
-          <include name="product"/>
-        </methods>
-      </class> <!-- day4.product -->
+      </class> <!-- testngPart2.testwithPriority -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

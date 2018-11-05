@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4.myfirstTestNG">
+      <class name="testngPart2.testwithPriority">
         <methods>
           <include name="doLogin"/>
-          <include name="DBConn"/>
-          <include name="browser"/>
-          <include name="breakDB"/>
-          <include name="testAccountSummay"/>
+          <include name="envSetUp"/>
+          <include name="doProfile"/>
         </methods>
-      </class> <!-- day4.myfirstTestNG -->
+      </class> <!-- testngPart2.testwithPriority -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

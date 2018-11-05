@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="simpleListners.adminPanelTest"/>
+      <class name="testngPart2.testGroupRun"/>
+      <class name="testngPart2.testwithPriority"/>
+      <class name="testngPart2.testGroup2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
