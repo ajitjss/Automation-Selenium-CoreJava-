@@ -22,5 +22,18 @@
 	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/javax.mail-1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/mailapi-1.6.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/smtp-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ajit/Documents/SeleniumDrivers/POi/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
