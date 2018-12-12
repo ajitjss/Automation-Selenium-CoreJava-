@@ -1,61 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="155" started-at="2018-11-04T07:26:01Z" finished-at="2018-11-04T07:26:01Z">
+  <suite name="Default suite" duration-ms="16085" started-at="2018-12-12T18:10:18Z" finished-at="2018-12-12T18:10:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="155" started-at="2018-11-04T07:26:01Z" finished-at="2018-11-04T07:26:01Z">
-      <class name="day4.testparameter">
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:day4.testparameter@4232c52b]" name="doLogin" duration-ms="26" started-at="2018-11-04T07:26:01Z" data-provider="getData" finished-at="2018-11-04T07:26:01Z">
+    <test name="Default test" duration-ms="16085" started-at="2018-12-12T18:10:18Z" finished-at="2018-12-12T18:10:34Z">
+      <class name="testNGDataDriven.useDataProvider">
+        <test-method status="PASS" signature="doSetUp()[pri:0, instance:testNGDataDriven.useDataProvider@fad74ee]" name="doSetUp" is-config="true" duration-ms="15324" started-at="2018-12-12T18:10:18Z" finished-at="2018-12-12T18:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSetUp -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:testNGDataDriven.useDataProvider@fad74ee]" name="doLogin" duration-ms="721" started-at="2018-12-12T18:10:34Z" data-provider="sheet0" finished-at="2018-12-12T18:10:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ajit091]]>
+                <![CDATA[mercury]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[DFFDFFDH]]>
+                <![CDATA[mercury]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:day4.testparameter@4232c52b]" name="doLogin" duration-ms="5" started-at="2018-11-04T07:26:01Z" data-provider="getData" finished-at="2018-11-04T07:26:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ajit091]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DFFDFFDH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:day4.testparameter@4232c52b]" name="doLogin" duration-ms="10" started-at="2018-11-04T07:26:01Z" data-provider="getData" finished-at="2018-11-04T07:26:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ajit091]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DFFDFFDH]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doLogin -->
-      </class> <!-- day4.testparameter -->
+      </class> <!-- testNGDataDriven.useDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

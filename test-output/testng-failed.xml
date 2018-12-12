@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day4.myfirstTestNG">
+      <class name="testNGDataDriven.useDataProvider">
         <methods>
+          <include name="doSetUp"/>
           <include name="doLogin"/>
-          <include name="DBConn"/>
-          <include name="browser"/>
-          <include name="breakDB"/>
-          <include name="testAccountSummay"/>
         </methods>
-      </class> <!-- day4.myfirstTestNG -->
+      </class> <!-- testNGDataDriven.useDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

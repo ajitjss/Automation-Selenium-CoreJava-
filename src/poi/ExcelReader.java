@@ -103,8 +103,7 @@ public class ExcelReader {
 		           cellText = cal.get(Calendar.DAY_OF_MONTH) + "/" +
 		                      cal.get(Calendar.MONTH)+1 + "/" + 
 		                      cellText;
-		           
-		          
+		           	          
 
 		         }
 
@@ -162,10 +161,7 @@ public class ExcelReader {
 	           cellText = cal.get(Calendar.MONTH)+1 + "/" +
 	                      cal.get(Calendar.DAY_OF_MONTH) + "/" +
 	                      cellText;
-	           
-	         
-
-	         }
+	                 	         }
 
 		  
 		  

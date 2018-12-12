@@ -15,7 +15,7 @@ public class readExcel {
 	public static void main(String[] args) throws RuntimeException, Exception, IOException {
 	
 		// input read stream 
-		File f = new File("C:\\\\Users\\\\ajit\\\\Desktop\\\\Automation\\\\poiA.xlsx");
+		File f = new File("C:\\Users\\ajit\\Desktop\\test\\QA.xlsx");
 		
 		// connecting workbook to input stream
 		FileInputStream fi = new FileInputStream(f);
@@ -24,10 +24,10 @@ public class readExcel {
 		
 		
 		Sheet sheet0= workbook.getSheetAt(0);
-	/*	Row row0= sheet0.getRow(0);
+	Row row0= sheet0.getRow(0);
 		Cell cellA= row0.getCell(0);
-		System.out.println(cellA);*/
-		
+		System.out.println(cellA);
+		/*
 		for(Row row: sheet0)
 		{
 			for(Cell cell: row) {
@@ -41,7 +41,7 @@ public class readExcel {
 					System.out.println("Blank cell");
 				}
 			}
-		}
+		}*/
 		fi.close();
 		
 
